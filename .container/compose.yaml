@@ -5,7 +5,7 @@ services:
     volumes:
       - type: bind
         source: ..
-        target: /home/dev/work/
+        target: /home/vscode/work/
     entrypoint: ["/usr/bin/bash", "-i"]
     stdin_open: true
     tty: true
@@ -15,5 +15,5 @@ services:
     volumes:
       - type: bind
         source: ..
-        target: /home/dev/work/
+        target: /home/vscode/work/
     entrypoint: ["latexmk"]
